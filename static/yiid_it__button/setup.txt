@@ -1,0 +1,31 @@
+plugin.tx_yiidlike_pi1 = USER
+plugin.tx_yiidlike_pi1 {
+
+        # template file to use
+	templateFile = {$plugin.tx_yiidlike_pi1.templateFile}
+
+	# button type (like,pro,recommend,visit,nice,buy,rsvp)
+	type = {$plugin.tx_yiidlike_pi1.type}
+
+	# text color
+	color = {$plugin.tx_yiidlike_pi1.color}
+
+	# width of the element
+	width = {$plugin.tx_yiidlike_pi1.width}
+
+	# add dislike functionality (boolean)
+	dislike = {$plugin.tx_yiidlike_pi1.dislike}
+
+	# url of the photo to display in social networks
+	photo = {$plugin.tx_yiidlike_pi1.photo}
+
+	# title (will overwrite the actual page title)
+	title = {$plugin.tx_yiidlike_pi1.title}
+
+	# description (will overwrite the actual page description)
+	description = {$plugin.tx_yiidlike_pi1.description}
+
+
+
+}
+includeLibs = EXT:yiid_like/pi1/class.tx_yiidlike_pi1.php

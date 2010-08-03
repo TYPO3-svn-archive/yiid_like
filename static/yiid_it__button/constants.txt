@@ -1,0 +1,27 @@
+plugin.tx_yiidlike_pi1 {
+
+        #cat=yiidlike; type=string; label=template file
+	templateFile = EXT:yiid_like/res/template.html
+
+	#cat=yiidlike; type=options[like,pro,recommend,visit,nice,buy,rsvp]; label=button type
+	type = like
+
+	#cat=yiidlike; type=color; label= text color
+	color = #000000
+
+	#cat=yiidlike; type=int+; label= width of the element in pixel
+	width = 420
+
+	#cat=yiidlike; type=boolean; label= add dislike functionality
+	dislike = 0
+
+	#cat=yiidlike; type=file[png, jpg, gif]; label= file[png, jpg, gif] default photo to display in social networks
+	photo =
+
+	#cat=yiidlike; type=string; label= title (will overwrite the actual page title)
+	title =
+
+	#cat=yiidlike; type=string; label= description (will overwrite the actual page description)
+	description =
+
+}

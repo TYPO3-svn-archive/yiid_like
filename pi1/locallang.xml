@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_yiidlike_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+
+			<label index="no_ts_template">The static typoscript template is not included in the typoscript setup. Please check the extension documentation of EXT:yiid_like.</label>
+                        <label index="widgeturl_too_long">Title and/or description are too long to be processed by yiid. Please shorten them by </label>
+                        <label index="characters"> characters.</label>
+
+                        <label index="flexform.general">General</label>
+                        <label index="flexform.type">Type</label>
+                        <label index="flexform.like">like/dislike</label>
+                        <label index="flexform.pro">pro/contra</label>
+                        <label index="flexform.recommend">recommend/not</label>
+                        <label index="flexform.visit">been there/not</label>
+                        <label index="flexform.nice">beautiful/ugly</label>
+                        <label index="flexform.buy">want!/not</label>
+                        <label index="flexform.rsvp">attending/not</label>
+                        <label index="flexform.dislike">Add the dislike option</label>
+                        <label index="flexform.title">Title</label>
+                        <label index="flexform.description">Description</label>
+                        <label index="flexform.photo">Image</label>
+                        <label index="flexform.templateFile">template file</label>
+                        <label index="flexform.color">Color of text</label>
+
+		</languageKey>
+                <languageKey index="de" type="array">
+
+			<label index="no_ts_template">Das statische TypoScript Template ist nicht im TypoScript Setup eingefügt. Bitte orientieren Sie sich an der Dokumentation der Extension yiid_like.</label>
+                        <label index="widgeturl_too_long">Titel und/oder Beschreibung sind zu lang, um von YIID it! verarbeitet werden zu können. Bitte kürzen Sie um </label>
+                        <label index="characters"> Zeichen.</label>
+
+                        <label index="flexform.general">Allgemein</label>
+                        <label index="flexform.type">Typ</label>
+                        <label index="flexform.like">Gefällt mir / nicht</label>
+                        <label index="flexform.pro">Pro / Contra</label>
+                        <label index="flexform.recommend">Empfehle ich / nicht</label>
+                        <label index="flexform.visit">War da / nicht</label>
+                        <label index="flexform.nice">Schön / nicht</label>
+                        <label index="flexform.buy">Will ich! / nicht</label>
+                        <label index="flexform.rsvp">Nehme teil / nicht teil</label>
+                        <label index="flexform.dislike">Gefällt-mir-nicht Option</label>
+                        <label index="flexform.title">Titel</label>
+                        <label index="flexform.description">Beschreibung</label>
+                        <label index="flexform.photo">Bild</label>
+                        <label index="flexform.templateFile">Template Datei</label>
+                        <label index="flexform.color">Textfarbe</label>
+
+		</languageKey>
+	</data>
+</T3locallang>
