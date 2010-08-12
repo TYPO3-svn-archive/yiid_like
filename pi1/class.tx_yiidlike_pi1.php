@@ -3,7 +3,7 @@
 /* * *************************************************************
  *  Copyright notice
  *
- *  (c) 2010 Peter Pröll <peter@alinbu.net>
+ *  (c) 2010 Peter Proell <peter@alinbu.net>
  *  All rights reserved
  *
  *  This script is part of the TYPO3 project. The TYPO3 project is
@@ -43,7 +43,7 @@ require_once(PATH_tslib . 'class.tslib_pibase.php');
 /**
  * Plugin 'Yiid it! Button' for the 'yiid_like' extension.
  *
- * @author	Peter Pröll <peter@alinbu.net>
+ * @author	Peter Proell <peter@alinbu.net>
  * @package	TYPO3
  * @subpackage	tx_yiidlike
  */
