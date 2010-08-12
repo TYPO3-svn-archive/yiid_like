@@ -1,3 +1,7 @@
-2010-08-03 Peter Pröll  <peter@alinbu.net>
+2010-08-03 Peter Pr?ll  <peter@alinbu.net>
 
 	* initial release
+
+2010-08-05 Peter Pr?ll <peter@alinbu.net>
+
+        * bugfix: new content element wizard crashes after installation of yiid_like

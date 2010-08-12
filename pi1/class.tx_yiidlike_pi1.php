@@ -191,8 +191,6 @@ class tx_yiidlike_pi1 extends tslib_pibase {
             $markers['###WIDGETURL###'] .= '&description=' . urlencode($this->conf['description']);
         }
 
-        debug($markers, 'the markers for the template', 173);
-
         // Send error if length of widgeturl exceeds 2000 characters
         if (strlen($markers['###WIDGETURL###']) > 2000) {
             return $this->pi_wrapInBaseClass($this->pi_getLL('widgeturl_too_long') .
